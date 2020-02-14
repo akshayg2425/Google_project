@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="50" passed="50">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="815996" started-at="2020-01-27T23:01:51 IST" finished-at="2020-01-27T23:15:27 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="815996" started-at="2020-01-27T23:01:51 IST" finished-at="2020-01-27T23:15:27 IST">
+      <class name="com.google.test.Google_SendMailTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.Google_SendMailTEST@436e852b]" name="StartInit" is-config="true" duration-ms="5741" started-at="2020-01-27T23:11:05 IST" finished-at="2020-01-27T23:11:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="testSendMail()[pri:0, instance:com.google.test.Google_SendMailTEST@436e852b]" name="testSendMail" duration-ms="42832" started-at="2020-01-27T23:11:11 IST" finished-at="2020-01-27T23:11:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendMail -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.Google_SendMailTEST@436e852b]" name="teardown" is-config="true" duration-ms="877" started-at="2020-01-27T23:11:54 IST" finished-at="2020-01-27T23:11:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.Google_SendMailTEST -->
+      <class name="com.google.test.Google_StaredMailCountTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.Google_StaredMailCountTEST@3e57cd70]" name="StartInit" is-config="true" duration-ms="6541" started-at="2020-01-27T23:13:21 IST" finished-at="2020-01-27T23:13:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="testCountMail()[pri:0, instance:com.google.test.Google_StaredMailCountTEST@3e57cd70]" name="testCountMail" duration-ms="19852" started-at="2020-01-27T23:13:28 IST" finished-at="2020-01-27T23:13:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountMail -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.Google_StaredMailCountTEST@3e57cd70]" name="teardown" is-config="true" duration-ms="1176" started-at="2020-01-27T23:13:48 IST" finished-at="2020-01-27T23:13:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.Google_StaredMailCountTEST -->
+      <class name="com.google.test.Google_totalNoMailsTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.Google_totalNoMailsTEST@32d2fa64]" name="StartInit" is-config="true" duration-ms="6939" started-at="2020-01-27T23:11:54 IST" finished-at="2020-01-27T23:12:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="test_NoMails()[pri:0, instance:com.google.test.Google_totalNoMailsTEST@32d2fa64]" name="test_NoMails" duration-ms="27725" started-at="2020-01-27T23:12:01 IST" finished-at="2020-01-27T23:12:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NoMails -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.Google_totalNoMailsTEST@32d2fa64]" name="teardown" is-config="true" duration-ms="849" started-at="2020-01-27T23:12:29 IST" finished-at="2020-01-27T23:12:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.Google_totalNoMailsTEST -->
+      <class name="com.google.test.Google_MailAttachmentCheckTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.Google_MailAttachmentCheckTEST@36b4cef0]" name="StartInit" is-config="true" duration-ms="6184" started-at="2020-01-27T23:04:55 IST" finished-at="2020-01-27T23:05:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="testCountMail()[pri:0, instance:com.google.test.Google_MailAttachmentCheckTEST@36b4cef0]" name="testCountMail" duration-ms="17964" started-at="2020-01-27T23:05:01 IST" finished-at="2020-01-27T23:05:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountMail -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.Google_MailAttachmentCheckTEST@36b4cef0]" name="teardown" is-config="true" duration-ms="835" started-at="2020-01-27T23:05:19 IST" finished-at="2020-01-27T23:05:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.Google_MailAttachmentCheckTEST -->
+      <class name="com.google.test.google_newLabelCreateVerifyTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_newLabelCreateVerifyTEST@27808f31]" name="StartInit" is-config="true" duration-ms="5440" started-at="2020-01-27T23:10:17 IST" finished-at="2020-01-27T23:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="gmail_body_Verification()[pri:0, instance:com.google.test.google_newLabelCreateVerifyTEST@27808f31]" name="gmail_body_Verification" duration-ms="41147" started-at="2020-01-27T23:10:23 IST" finished-at="2020-01-27T23:11:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail_body_Verification -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_newLabelCreateVerifyTEST@27808f31]" name="teardown" is-config="true" duration-ms="1179" started-at="2020-01-27T23:11:04 IST" finished-at="2020-01-27T23:11:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.google_newLabelCreateVerifyTEST -->
+      <class name="com.google.test.Google_MailSendingToLabelTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.Google_MailSendingToLabelTEST@1d8d30f7]" name="StartInit" is-config="true" duration-ms="6259" started-at="2020-01-27T23:12:30 IST" finished-at="2020-01-27T23:12:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="gmail_oneVerification()[pri:0, instance:com.google.test.Google_MailSendingToLabelTEST@1d8d30f7]" name="gmail_oneVerification" duration-ms="44375" started-at="2020-01-27T23:12:36 IST" finished-at="2020-01-27T23:13:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail_oneVerification -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.Google_MailSendingToLabelTEST@1d8d30f7]" name="teardown" is-config="true" duration-ms="833" started-at="2020-01-27T23:13:21 IST" finished-at="2020-01-27T23:13:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.Google_MailSendingToLabelTEST -->
+      <class name="com.google.test.testcase_one">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.testcase_one@1a8a8f7c]" name="StartInit" is-config="true" duration-ms="6815" started-at="2020-01-27T23:01:51 IST" finished-at="2020-01-27T23:01:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="Verification_ofPart_four()[pri:0, instance:com.google.test.testcase_one@1a8a8f7c]" name="Verification_ofPart_four" duration-ms="130" started-at="2020-01-27T23:01:58 IST" finished-at="2020-01-27T23:01:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verification_ofPart_four -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.testcase_one@1a8a8f7c]" name="teardown" is-config="true" duration-ms="651" started-at="2020-01-27T23:01:58 IST" finished-at="2020-01-27T23:01:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.testcase_one@1a8a8f7c]" name="StartInit" is-config="true" duration-ms="5691" started-at="2020-01-27T23:01:59 IST" finished-at="2020-01-27T23:02:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="Verification_ofPart_one()[pri:0, instance:com.google.test.testcase_one@1a8a8f7c]" name="Verification_ofPart_one" duration-ms="96" started-at="2020-01-27T23:02:05 IST" finished-at="2020-01-27T23:02:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verification_ofPart_one -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.testcase_one@1a8a8f7c]" name="teardown" is-config="true" duration-ms="819" started-at="2020-01-27T23:02:05 IST" finished-at="2020-01-27T23:02:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.testcase_one@1a8a8f7c]" name="StartInit" is-config="true" duration-ms="5565" started-at="2020-01-27T23:02:06 IST" finished-at="2020-01-27T23:02:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="Verification_ofPart_three()[pri:0, instance:com.google.test.testcase_one@1a8a8f7c]" name="Verification_ofPart_three" duration-ms="89" started-at="2020-01-27T23:02:11 IST" finished-at="2020-01-27T23:02:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verification_ofPart_three -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.testcase_one@1a8a8f7c]" name="teardown" is-config="true" duration-ms="689" started-at="2020-01-27T23:02:11 IST" finished-at="2020-01-27T23:02:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.testcase_one@1a8a8f7c]" name="StartInit" is-config="true" duration-ms="5462" started-at="2020-01-27T23:02:12 IST" finished-at="2020-01-27T23:02:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="Verification_ofPart_two()[pri:0, instance:com.google.test.testcase_one@1a8a8f7c]" name="Verification_ofPart_two" duration-ms="73" started-at="2020-01-27T23:02:17 IST" finished-at="2020-01-27T23:02:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verification_ofPart_two -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.testcase_one@1a8a8f7c]" name="teardown" is-config="true" duration-ms="656" started-at="2020-01-27T23:02:17 IST" finished-at="2020-01-27T23:02:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.testcase_one -->
+      <class name="com.google.test.googleProduct_verificationTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.googleProduct_verificationTEST@631330c]" name="StartInit" is-config="true" duration-ms="8427" started-at="2020-01-27T23:02:38 IST" finished-at="2020-01-27T23:02:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="first_product()[pri:1, instance:com.google.test.googleProduct_verificationTEST@631330c]" name="first_product" duration-ms="149" started-at="2020-01-27T23:02:46 IST" finished-at="2020-01-27T23:02:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first_product -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.googleProduct_verificationTEST@631330c]" name="teardown" is-config="true" duration-ms="805" started-at="2020-01-27T23:02:46 IST" finished-at="2020-01-27T23:02:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.googleProduct_verificationTEST@631330c]" name="StartInit" is-config="true" duration-ms="8068" started-at="2020-01-27T23:02:47 IST" finished-at="2020-01-27T23:02:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="secound_product()[pri:2, instance:com.google.test.googleProduct_verificationTEST@631330c]" name="secound_product" duration-ms="124" started-at="2020-01-27T23:02:55 IST" finished-at="2020-01-27T23:02:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secound_product -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.googleProduct_verificationTEST@631330c]" name="teardown" is-config="true" duration-ms="700" started-at="2020-01-27T23:02:55 IST" finished-at="2020-01-27T23:02:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.googleProduct_verificationTEST@631330c]" name="StartInit" is-config="true" duration-ms="8812" started-at="2020-01-27T23:02:56 IST" finished-at="2020-01-27T23:03:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="thired_product()[pri:3, instance:com.google.test.googleProduct_verificationTEST@631330c]" name="thired_product" duration-ms="124" started-at="2020-01-27T23:03:05 IST" finished-at="2020-01-27T23:03:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thired_product -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.googleProduct_verificationTEST@631330c]" name="teardown" is-config="true" duration-ms="691" started-at="2020-01-27T23:03:05 IST" finished-at="2020-01-27T23:03:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.googleProduct_verificationTEST@631330c]" name="StartInit" is-config="true" duration-ms="10291" started-at="2020-01-27T23:03:06 IST" finished-at="2020-01-27T23:03:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="fourth_product()[pri:4, instance:com.google.test.googleProduct_verificationTEST@631330c]" name="fourth_product" duration-ms="197" started-at="2020-01-27T23:03:16 IST" finished-at="2020-01-27T23:03:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourth_product -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.googleProduct_verificationTEST@631330c]" name="teardown" is-config="true" duration-ms="931" started-at="2020-01-27T23:03:16 IST" finished-at="2020-01-27T23:03:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.googleProduct_verificationTEST -->
+      <class name="com.google.test.google_outputVerificationTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_outputVerificationTEST@9a7504c]" name="StartInit" is-config="true" duration-ms="5340" started-at="2020-01-27T23:13:49 IST" finished-at="2020-01-27T23:13:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="firstinput_verifytest()[pri:0, instance:com.google.test.google_outputVerificationTEST@9a7504c]" name="firstinput_verifytest" duration-ms="3901" started-at="2020-01-27T23:13:54 IST" finished-at="2020-01-27T23:13:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstinput_verifytest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_outputVerificationTEST@9a7504c]" name="teardown" is-config="true" duration-ms="726" started-at="2020-01-27T23:13:58 IST" finished-at="2020-01-27T23:13:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.google_outputVerificationTEST -->
+      <class name="com.google.test.google_dialogeApp_verificationTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="StartInit" is-config="true" duration-ms="5544" started-at="2020-01-27T23:13:59 IST" finished-at="2020-01-27T23:14:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="test_eight()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="test_eight" duration-ms="744" started-at="2020-01-27T23:14:05 IST" finished-at="2020-01-27T23:14:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_eight -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="teardown" is-config="true" duration-ms="698" started-at="2020-01-27T23:14:05 IST" finished-at="2020-01-27T23:14:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="StartInit" is-config="true" duration-ms="5439" started-at="2020-01-27T23:14:06 IST" finished-at="2020-01-27T23:14:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="test_eleven()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="test_eleven" duration-ms="792" started-at="2020-01-27T23:14:11 IST" finished-at="2020-01-27T23:14:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_eleven -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="teardown" is-config="true" duration-ms="695" started-at="2020-01-27T23:14:12 IST" finished-at="2020-01-27T23:14:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="StartInit" is-config="true" duration-ms="5475" started-at="2020-01-27T23:14:13 IST" finished-at="2020-01-27T23:14:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="test_five()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="test_five" duration-ms="494" started-at="2020-01-27T23:14:18 IST" finished-at="2020-01-27T23:14:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_five -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="teardown" is-config="true" duration-ms="829" started-at="2020-01-27T23:14:19 IST" finished-at="2020-01-27T23:14:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="StartInit" is-config="true" duration-ms="6616" started-at="2020-01-27T23:14:20 IST" finished-at="2020-01-27T23:14:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="test_four()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="test_four" duration-ms="307" started-at="2020-01-27T23:14:26 IST" finished-at="2020-01-27T23:14:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_four -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="teardown" is-config="true" duration-ms="777" started-at="2020-01-27T23:14:27 IST" finished-at="2020-01-27T23:14:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="StartInit" is-config="true" duration-ms="6411" started-at="2020-01-27T23:14:27 IST" finished-at="2020-01-27T23:14:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="test_nine()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="test_nine" duration-ms="884" started-at="2020-01-27T23:14:34 IST" finished-at="2020-01-27T23:14:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_nine -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="teardown" is-config="true" duration-ms="767" started-at="2020-01-27T23:14:35 IST" finished-at="2020-01-27T23:14:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="StartInit" is-config="true" duration-ms="7183" started-at="2020-01-27T23:14:36 IST" finished-at="2020-01-27T23:14:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="test_one()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="test_one" duration-ms="329" started-at="2020-01-27T23:14:43 IST" finished-at="2020-01-27T23:14:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_one -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="teardown" is-config="true" duration-ms="804" started-at="2020-01-27T23:14:43 IST" finished-at="2020-01-27T23:14:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="StartInit" is-config="true" duration-ms="6277" started-at="2020-01-27T23:14:44 IST" finished-at="2020-01-27T23:14:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="test_seven()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="test_seven" duration-ms="852" started-at="2020-01-27T23:14:50 IST" finished-at="2020-01-27T23:14:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_seven -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="teardown" is-config="true" duration-ms="740" started-at="2020-01-27T23:14:51 IST" finished-at="2020-01-27T23:14:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="StartInit" is-config="true" duration-ms="5477" started-at="2020-01-27T23:14:52 IST" finished-at="2020-01-27T23:14:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="test_six()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="test_six" duration-ms="483" started-at="2020-01-27T23:14:57 IST" finished-at="2020-01-27T23:14:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_six -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="teardown" is-config="true" duration-ms="697" started-at="2020-01-27T23:14:58 IST" finished-at="2020-01-27T23:14:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="StartInit" is-config="true" duration-ms="5858" started-at="2020-01-27T23:14:58 IST" finished-at="2020-01-27T23:15:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="test_ten()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="test_ten" duration-ms="959" started-at="2020-01-27T23:15:04 IST" finished-at="2020-01-27T23:15:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ten -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="teardown" is-config="true" duration-ms="1336" started-at="2020-01-27T23:15:05 IST" finished-at="2020-01-27T23:15:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="StartInit" is-config="true" duration-ms="5617" started-at="2020-01-27T23:15:07 IST" finished-at="2020-01-27T23:15:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="test_three()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="test_three" duration-ms="553" started-at="2020-01-27T23:15:12 IST" finished-at="2020-01-27T23:15:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_three -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="teardown" is-config="true" duration-ms="750" started-at="2020-01-27T23:15:13 IST" finished-at="2020-01-27T23:15:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="StartInit" is-config="true" duration-ms="5393" started-at="2020-01-27T23:15:13 IST" finished-at="2020-01-27T23:15:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="test_twele()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="test_twele" duration-ms="737" started-at="2020-01-27T23:15:19 IST" finished-at="2020-01-27T23:15:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_twele -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="teardown" is-config="true" duration-ms="830" started-at="2020-01-27T23:15:20 IST" finished-at="2020-01-27T23:15:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="StartInit" is-config="true" duration-ms="5283" started-at="2020-01-27T23:15:20 IST" finished-at="2020-01-27T23:15:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="test_two()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="test_two" duration-ms="797" started-at="2020-01-27T23:15:26 IST" finished-at="2020-01-27T23:15:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_two -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_dialogeApp_verificationTEST@2c039ac6]" name="teardown" is-config="true" duration-ms="777" started-at="2020-01-27T23:15:26 IST" finished-at="2020-01-27T23:15:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.google_dialogeApp_verificationTEST -->
+      <class name="com.google.test.googlegmail_SetingVerificationTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.googlegmail_SetingVerificationTEST@42f93a98]" name="StartInit" is-config="true" duration-ms="5747" started-at="2020-01-27T23:03:17 IST" finished-at="2020-01-27T23:03:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="gmail_body_Verification()[pri:0, instance:com.google.test.googlegmail_SetingVerificationTEST@42f93a98]" name="gmail_body_Verification" duration-ms="19776" started-at="2020-01-27T23:03:23 IST" finished-at="2020-01-27T23:03:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail_body_Verification -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.googlegmail_SetingVerificationTEST@42f93a98]" name="teardown" is-config="true" duration-ms="838" started-at="2020-01-27T23:03:43 IST" finished-at="2020-01-27T23:03:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.googlegmail_SetingVerificationTEST -->
+      <class name="com.google.test.Google_SentCheckMailTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.Google_SentCheckMailTEST@3d921e20]" name="StartInit" is-config="true" duration-ms="5397" started-at="2020-01-27T23:04:27 IST" finished-at="2020-01-27T23:04:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="testSendMailVerify()[pri:0, instance:com.google.test.Google_SentCheckMailTEST@3d921e20]" name="testSendMailVerify" duration-ms="21957" started-at="2020-01-27T23:04:32 IST" finished-at="2020-01-27T23:04:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendMailVerify -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.Google_SentCheckMailTEST@3d921e20]" name="teardown" is-config="true" duration-ms="865" started-at="2020-01-27T23:04:54 IST" finished-at="2020-01-27T23:04:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.Google_SentCheckMailTEST -->
+      <class name="com.google.test.google_gmailVerificationTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_gmailVerificationTEST@2353b3e6]" name="StartInit" is-config="true" duration-ms="5494" started-at="2020-01-27T23:02:18 IST" finished-at="2020-01-27T23:02:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="gmail_oneVerification()[pri:0, instance:com.google.test.google_gmailVerificationTEST@2353b3e6]" name="gmail_oneVerification" duration-ms="13488" started-at="2020-01-27T23:02:24 IST" finished-at="2020-01-27T23:02:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail_oneVerification -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_gmailVerificationTEST@2353b3e6]" name="teardown" is-config="true" duration-ms="766" started-at="2020-01-27T23:02:37 IST" finished-at="2020-01-27T23:02:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.google_gmailVerificationTEST -->
+      <class name="com.google.test.google_mailcomposeVerificationTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_mailcomposeVerificationTEST@c46bcd4]" name="StartInit" is-config="true" duration-ms="5427" started-at="2020-01-27T23:03:44 IST" finished-at="2020-01-27T23:03:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="gmail_body_Verification()[pri:0, instance:com.google.test.google_mailcomposeVerificationTEST@c46bcd4]" name="gmail_body_Verification" duration-ms="20265" started-at="2020-01-27T23:03:49 IST" finished-at="2020-01-27T23:04:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail_body_Verification -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_mailcomposeVerificationTEST@c46bcd4]" name="teardown" is-config="true" duration-ms="861" started-at="2020-01-27T23:04:09 IST" finished-at="2020-01-27T23:04:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.google_mailcomposeVerificationTEST -->
+      <class name="com.google.test.google_pageTitle_verificationTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="StartInit" is-config="true" duration-ms="6045" started-at="2020-01-27T23:05:20 IST" finished-at="2020-01-27T23:05:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="titleVerificationTEST_seven()[pri:1, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="titleVerificationTEST_seven" duration-ms="3094" started-at="2020-01-27T23:05:26 IST" finished-at="2020-01-27T23:05:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerificationTEST_seven -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="teardown" is-config="true" duration-ms="802" started-at="2020-01-27T23:05:29 IST" finished-at="2020-01-27T23:05:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="StartInit" is-config="true" duration-ms="6141" started-at="2020-01-27T23:05:30 IST" finished-at="2020-01-27T23:05:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="titleVerificationTEST_two()[pri:2, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="titleVerificationTEST_two" duration-ms="1987" started-at="2020-01-27T23:05:36 IST" finished-at="2020-01-27T23:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerificationTEST_two -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="teardown" is-config="true" duration-ms="695" started-at="2020-01-27T23:05:38 IST" finished-at="2020-01-27T23:05:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="StartInit" is-config="true" duration-ms="6023" started-at="2020-01-27T23:05:39 IST" finished-at="2020-01-27T23:05:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="titleVerificationTEST_three()[pri:3, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="titleVerificationTEST_three" duration-ms="3964" started-at="2020-01-27T23:05:45 IST" finished-at="2020-01-27T23:05:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerificationTEST_three -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="teardown" is-config="true" duration-ms="887" started-at="2020-01-27T23:05:48 IST" finished-at="2020-01-27T23:05:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="StartInit" is-config="true" duration-ms="5543" started-at="2020-01-27T23:05:49 IST" finished-at="2020-01-27T23:05:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="titleVerificationTEST_four()[pri:4, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="titleVerificationTEST_four" duration-ms="8720" started-at="2020-01-27T23:05:55 IST" finished-at="2020-01-27T23:06:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerificationTEST_four -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="teardown" is-config="true" duration-ms="1242" started-at="2020-01-27T23:06:04 IST" finished-at="2020-01-27T23:06:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="StartInit" is-config="true" duration-ms="5319" started-at="2020-01-27T23:06:05 IST" finished-at="2020-01-27T23:06:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="titleVerificationTEST_five()[pri:5, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="titleVerificationTEST_five" duration-ms="4805" started-at="2020-01-27T23:06:10 IST" finished-at="2020-01-27T23:06:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerificationTEST_five -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="teardown" is-config="true" duration-ms="695" started-at="2020-01-27T23:06:15 IST" finished-at="2020-01-27T23:06:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="StartInit" is-config="true" duration-ms="5387" started-at="2020-01-27T23:06:16 IST" finished-at="2020-01-27T23:06:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="titleVerificationTEST_six()[pri:6, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="titleVerificationTEST_six" duration-ms="9968" started-at="2020-01-27T23:06:21 IST" finished-at="2020-01-27T23:06:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerificationTEST_six -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="teardown" is-config="true" duration-ms="1537" started-at="2020-01-27T23:06:31 IST" finished-at="2020-01-27T23:06:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="StartInit" is-config="true" duration-ms="5109" started-at="2020-01-27T23:06:33 IST" finished-at="2020-01-27T23:06:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="titleVerificationTEST_one()[pri:7, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="titleVerificationTEST_one" duration-ms="4129" started-at="2020-01-27T23:06:38 IST" finished-at="2020-01-27T23:06:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerificationTEST_one -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="teardown" is-config="true" duration-ms="756" started-at="2020-01-27T23:06:42 IST" finished-at="2020-01-27T23:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="StartInit" is-config="true" duration-ms="6120" started-at="2020-01-27T23:06:43 IST" finished-at="2020-01-27T23:06:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="titleVerificationTEST_eight()[pri:8, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="titleVerificationTEST_eight" duration-ms="4348" started-at="2020-01-27T23:06:49 IST" finished-at="2020-01-27T23:06:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerificationTEST_eight -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="teardown" is-config="true" duration-ms="735" started-at="2020-01-27T23:06:53 IST" finished-at="2020-01-27T23:06:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="StartInit" is-config="true" duration-ms="5094" started-at="2020-01-27T23:06:54 IST" finished-at="2020-01-27T23:06:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="titleVerificationTEST_nine()[pri:9, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="titleVerificationTEST_nine" duration-ms="4412" started-at="2020-01-27T23:06:59 IST" finished-at="2020-01-27T23:07:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerificationTEST_nine -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_pageTitle_verificationTEST@fad74ee]" name="teardown" is-config="true" duration-ms="914" started-at="2020-01-27T23:07:03 IST" finished-at="2020-01-27T23:07:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.google_pageTitle_verificationTEST -->
+      <class name="com.google.test.GoogleLaungage_appearTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.GoogleLaungage_appearTEST@3234e239]" name="StartInit" is-config="true" duration-ms="6384" started-at="2020-01-27T23:04:10 IST" finished-at="2020-01-27T23:04:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="LaungVerifcation_one()[pri:0, instance:com.google.test.GoogleLaungage_appearTEST@3234e239]" name="LaungVerifcation_one" duration-ms="996" started-at="2020-01-27T23:04:16 IST" finished-at="2020-01-27T23:04:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaungVerifcation_one -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.GoogleLaungage_appearTEST@3234e239]" name="teardown" is-config="true" duration-ms="1034" started-at="2020-01-27T23:04:17 IST" finished-at="2020-01-27T23:04:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.GoogleLaungage_appearTEST@3234e239]" name="StartInit" is-config="true" duration-ms="6402" started-at="2020-01-27T23:04:19 IST" finished-at="2020-01-27T23:04:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="LaungVerifcation_two()[pri:0, instance:com.google.test.GoogleLaungage_appearTEST@3234e239]" name="LaungVerifcation_two" duration-ms="911" started-at="2020-01-27T23:04:25 IST" finished-at="2020-01-27T23:04:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaungVerifcation_two -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.GoogleLaungage_appearTEST@3234e239]" name="teardown" is-config="true" duration-ms="694" started-at="2020-01-27T23:04:26 IST" finished-at="2020-01-27T23:04:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.GoogleLaungage_appearTEST -->
+      <class name="com.google.test.Google_CountUnreadMailTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.Google_CountUnreadMailTEST@1a1d6a08]" name="StartInit" is-config="true" duration-ms="5491" started-at="2020-01-27T23:07:04 IST" finished-at="2020-01-27T23:07:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="testCountMail()[pri:0, instance:com.google.test.Google_CountUnreadMailTEST@1a1d6a08]" name="testCountMail" duration-ms="17714" started-at="2020-01-27T23:07:10 IST" finished-at="2020-01-27T23:07:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountMail -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.Google_CountUnreadMailTEST@1a1d6a08]" name="teardown" is-config="true" duration-ms="868" started-at="2020-01-27T23:07:27 IST" finished-at="2020-01-27T23:07:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.Google_CountUnreadMailTEST -->
+      <class name="com.google.test.google_pageSiginOperationsTEST">
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="StartInit" is-config="true" duration-ms="5381" started-at="2020-01-27T23:07:28 IST" finished-at="2020-01-27T23:07:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="SigninAccount()[pri:1, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="SigninAccount" duration-ms="12753" started-at="2020-01-27T23:07:34 IST" finished-at="2020-01-27T23:07:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninAccount -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="teardown" is-config="true" duration-ms="743" started-at="2020-01-27T23:07:46 IST" finished-at="2020-01-27T23:07:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="StartInit" is-config="true" duration-ms="5477" started-at="2020-01-27T23:07:47 IST" finished-at="2020-01-27T23:07:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="SigninSearch()[pri:2, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="SigninSearch" duration-ms="15286" started-at="2020-01-27T23:07:53 IST" finished-at="2020-01-27T23:08:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninSearch -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="teardown" is-config="true" duration-ms="777" started-at="2020-01-27T23:08:08 IST" finished-at="2020-01-27T23:08:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="StartInit" is-config="true" duration-ms="5345" started-at="2020-01-27T23:08:09 IST" finished-at="2020-01-27T23:08:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="SigninMap()[pri:3, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="SigninMap" duration-ms="21777" started-at="2020-01-27T23:08:14 IST" finished-at="2020-01-27T23:08:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninMap -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="teardown" is-config="true" duration-ms="815" started-at="2020-01-27T23:08:36 IST" finished-at="2020-01-27T23:08:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="StartInit" is-config="true" duration-ms="5380" started-at="2020-01-27T23:08:37 IST" finished-at="2020-01-27T23:08:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="SigninYoutube()[pri:4, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="SigninYoutube" duration-ms="18519" started-at="2020-01-27T23:08:42 IST" finished-at="2020-01-27T23:09:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninYoutube -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="teardown" is-config="true" duration-ms="825" started-at="2020-01-27T23:09:01 IST" finished-at="2020-01-27T23:09:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="StartInit" is-config="true" duration-ms="5668" started-at="2020-01-27T23:09:01 IST" finished-at="2020-01-27T23:09:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="SigninPlay()[pri:5, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="SigninPlay" duration-ms="15309" started-at="2020-01-27T23:09:07 IST" finished-at="2020-01-27T23:09:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninPlay -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="teardown" is-config="true" duration-ms="812" started-at="2020-01-27T23:09:22 IST" finished-at="2020-01-27T23:09:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="StartInit" is-config="true" duration-ms="6059" started-at="2020-01-27T23:09:23 IST" finished-at="2020-01-27T23:09:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="SigninNews()[pri:6, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="SigninNews" duration-ms="22836" started-at="2020-01-27T23:09:29 IST" finished-at="2020-01-27T23:09:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninNews -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="teardown" is-config="true" duration-ms="813" started-at="2020-01-27T23:09:52 IST" finished-at="2020-01-27T23:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StartInit()[pri:0, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="StartInit" is-config="true" duration-ms="5532" started-at="2020-01-27T23:09:53 IST" finished-at="2020-01-27T23:09:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInit -->
+        <test-method status="PASS" signature="SigninPhoto()[pri:7, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="SigninPhoto" duration-ms="18008" started-at="2020-01-27T23:09:58 IST" finished-at="2020-01-27T23:10:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninPhoto -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.google.test.google_pageSiginOperationsTEST@37d31475]" name="teardown" is-config="true" duration-ms="822" started-at="2020-01-27T23:10:16 IST" finished-at="2020-01-27T23:10:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.test.google_pageSiginOperationsTEST -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

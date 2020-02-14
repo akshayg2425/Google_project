@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.google.util.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.google.test.googlegmail_SetingVerificationTEST">
+        <methods>
+          <include name="teardown"/>
+          <include name="StartInit"/>
+          <include name="gmail_body_Verification"/>
+        </methods>
+      </class> <!-- com.google.test.googlegmail_SetingVerificationTEST -->
+      <class name="com.google.test.Google_MailSendingToLabelTEST">
+        <methods>
+          <include name="teardown"/>
+          <include name="StartInit"/>
+          <include name="gmail_oneVerification"/>
+        </methods>
+      </class> <!-- com.google.test.Google_MailSendingToLabelTEST -->
+      <class name="com.google.test.google_gmailVerificationTEST">
+        <methods>
+          <include name="StartInit"/>
+          <include name="gmail_oneVerification"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.google.test.google_gmailVerificationTEST -->
+      <class name="com.google.test.google_outputVerificationTEST">
+        <methods>
+          <include name="teardown"/>
+          <include name="firstinput_verifytest"/>
+          <include name="StartInit"/>
+        </methods>
+      </class> <!-- com.google.test.google_outputVerificationTEST -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

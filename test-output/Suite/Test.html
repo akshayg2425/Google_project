@@ -1,0 +1,329 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>50/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 27 23:01:51 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>815 seconds (815996 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.google.test.GoogleLaungage_appearTEST.LaungVerifcation_one()'><b>LaungVerifcation_one</b><br>Test class: com.google.test.GoogleLaungage_appearTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.GoogleLaungage_appearTEST@3234e239</td></tr>
+<tr>
+<td title='com.google.test.GoogleLaungage_appearTEST.LaungVerifcation_two()'><b>LaungVerifcation_two</b><br>Test class: com.google.test.GoogleLaungage_appearTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.GoogleLaungage_appearTEST@3234e239</td></tr>
+<tr>
+<td title='com.google.test.google_pageSiginOperationsTEST.SigninAccount()'><b>SigninAccount</b><br>Test class: com.google.test.google_pageSiginOperationsTEST</td>
+<td></td>
+<td>12</td>
+<td>com.google.test.google_pageSiginOperationsTEST@37d31475</td></tr>
+<tr>
+<td title='com.google.test.google_pageSiginOperationsTEST.SigninMap()'><b>SigninMap</b><br>Test class: com.google.test.google_pageSiginOperationsTEST</td>
+<td></td>
+<td>21</td>
+<td>com.google.test.google_pageSiginOperationsTEST@37d31475</td></tr>
+<tr>
+<td title='com.google.test.google_pageSiginOperationsTEST.SigninNews()'><b>SigninNews</b><br>Test class: com.google.test.google_pageSiginOperationsTEST</td>
+<td></td>
+<td>22</td>
+<td>com.google.test.google_pageSiginOperationsTEST@37d31475</td></tr>
+<tr>
+<td title='com.google.test.google_pageSiginOperationsTEST.SigninPhoto()'><b>SigninPhoto</b><br>Test class: com.google.test.google_pageSiginOperationsTEST</td>
+<td></td>
+<td>18</td>
+<td>com.google.test.google_pageSiginOperationsTEST@37d31475</td></tr>
+<tr>
+<td title='com.google.test.google_pageSiginOperationsTEST.SigninPlay()'><b>SigninPlay</b><br>Test class: com.google.test.google_pageSiginOperationsTEST</td>
+<td></td>
+<td>15</td>
+<td>com.google.test.google_pageSiginOperationsTEST@37d31475</td></tr>
+<tr>
+<td title='com.google.test.google_pageSiginOperationsTEST.SigninSearch()'><b>SigninSearch</b><br>Test class: com.google.test.google_pageSiginOperationsTEST</td>
+<td></td>
+<td>15</td>
+<td>com.google.test.google_pageSiginOperationsTEST@37d31475</td></tr>
+<tr>
+<td title='com.google.test.google_pageSiginOperationsTEST.SigninYoutube()'><b>SigninYoutube</b><br>Test class: com.google.test.google_pageSiginOperationsTEST</td>
+<td></td>
+<td>18</td>
+<td>com.google.test.google_pageSiginOperationsTEST@37d31475</td></tr>
+<tr>
+<td title='com.google.test.testcase_one.Verification_ofPart_four()'><b>Verification_ofPart_four</b><br>Test class: com.google.test.testcase_one</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.testcase_one@1a8a8f7c</td></tr>
+<tr>
+<td title='com.google.test.testcase_one.Verification_ofPart_one()'><b>Verification_ofPart_one</b><br>Test class: com.google.test.testcase_one</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.testcase_one@1a8a8f7c</td></tr>
+<tr>
+<td title='com.google.test.testcase_one.Verification_ofPart_three()'><b>Verification_ofPart_three</b><br>Test class: com.google.test.testcase_one</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.testcase_one@1a8a8f7c</td></tr>
+<tr>
+<td title='com.google.test.testcase_one.Verification_ofPart_two()'><b>Verification_ofPart_two</b><br>Test class: com.google.test.testcase_one</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.testcase_one@1a8a8f7c</td></tr>
+<tr>
+<td title='com.google.test.googleProduct_verificationTEST.first_product()'><b>first_product</b><br>Test class: com.google.test.googleProduct_verificationTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.googleProduct_verificationTEST@631330c</td></tr>
+<tr>
+<td title='com.google.test.google_outputVerificationTEST.firstinput_verifytest()'><b>firstinput_verifytest</b><br>Test class: com.google.test.google_outputVerificationTEST</td>
+<td></td>
+<td>3</td>
+<td>com.google.test.google_outputVerificationTEST@9a7504c</td></tr>
+<tr>
+<td title='com.google.test.googleProduct_verificationTEST.fourth_product()'><b>fourth_product</b><br>Test class: com.google.test.googleProduct_verificationTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.googleProduct_verificationTEST@631330c</td></tr>
+<tr>
+<td title='com.google.test.googlegmail_SetingVerificationTEST.gmail_body_Verification()'><b>gmail_body_Verification</b><br>Test class: com.google.test.googlegmail_SetingVerificationTEST</td>
+<td></td>
+<td>19</td>
+<td>com.google.test.googlegmail_SetingVerificationTEST@42f93a98</td></tr>
+<tr>
+<td title='com.google.test.google_mailcomposeVerificationTEST.gmail_body_Verification()'><b>gmail_body_Verification</b><br>Test class: com.google.test.google_mailcomposeVerificationTEST</td>
+<td></td>
+<td>20</td>
+<td>com.google.test.google_mailcomposeVerificationTEST@c46bcd4</td></tr>
+<tr>
+<td title='com.google.test.google_newLabelCreateVerifyTEST.gmail_body_Verification()'><b>gmail_body_Verification</b><br>Test class: com.google.test.google_newLabelCreateVerifyTEST</td>
+<td></td>
+<td>41</td>
+<td>com.google.test.google_newLabelCreateVerifyTEST@27808f31</td></tr>
+<tr>
+<td title='com.google.test.google_gmailVerificationTEST.gmail_oneVerification()'><b>gmail_oneVerification</b><br>Test class: com.google.test.google_gmailVerificationTEST</td>
+<td></td>
+<td>13</td>
+<td>com.google.test.google_gmailVerificationTEST@2353b3e6</td></tr>
+<tr>
+<td title='com.google.test.Google_MailSendingToLabelTEST.gmail_oneVerification()'><b>gmail_oneVerification</b><br>Test class: com.google.test.Google_MailSendingToLabelTEST</td>
+<td></td>
+<td>44</td>
+<td>com.google.test.Google_MailSendingToLabelTEST@1d8d30f7</td></tr>
+<tr>
+<td title='com.google.test.googleProduct_verificationTEST.secound_product()'><b>secound_product</b><br>Test class: com.google.test.googleProduct_verificationTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.googleProduct_verificationTEST@631330c</td></tr>
+<tr>
+<td title='com.google.test.Google_MailAttachmentCheckTEST.testCountMail()'><b>testCountMail</b><br>Test class: com.google.test.Google_MailAttachmentCheckTEST</td>
+<td></td>
+<td>17</td>
+<td>com.google.test.Google_MailAttachmentCheckTEST@36b4cef0</td></tr>
+<tr>
+<td title='com.google.test.Google_CountUnreadMailTEST.testCountMail()'><b>testCountMail</b><br>Test class: com.google.test.Google_CountUnreadMailTEST</td>
+<td></td>
+<td>17</td>
+<td>com.google.test.Google_CountUnreadMailTEST@1a1d6a08</td></tr>
+<tr>
+<td title='com.google.test.Google_StaredMailCountTEST.testCountMail()'><b>testCountMail</b><br>Test class: com.google.test.Google_StaredMailCountTEST</td>
+<td></td>
+<td>19</td>
+<td>com.google.test.Google_StaredMailCountTEST@3e57cd70</td></tr>
+<tr>
+<td title='com.google.test.Google_SendMailTEST.testSendMail()'><b>testSendMail</b><br>Test class: com.google.test.Google_SendMailTEST</td>
+<td></td>
+<td>42</td>
+<td>com.google.test.Google_SendMailTEST@436e852b</td></tr>
+<tr>
+<td title='com.google.test.Google_SentCheckMailTEST.testSendMailVerify()'><b>testSendMailVerify</b><br>Test class: com.google.test.Google_SentCheckMailTEST</td>
+<td></td>
+<td>21</td>
+<td>com.google.test.Google_SentCheckMailTEST@3d921e20</td></tr>
+<tr>
+<td title='com.google.test.Google_totalNoMailsTEST.test_NoMails()'><b>test_NoMails</b><br>Test class: com.google.test.Google_totalNoMailsTEST</td>
+<td></td>
+<td>27</td>
+<td>com.google.test.Google_totalNoMailsTEST@32d2fa64</td></tr>
+<tr>
+<td title='com.google.test.google_dialogeApp_verificationTEST.test_eight()'><b>test_eight</b><br>Test class: com.google.test.google_dialogeApp_verificationTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.google_dialogeApp_verificationTEST@2c039ac6</td></tr>
+<tr>
+<td title='com.google.test.google_dialogeApp_verificationTEST.test_eleven()'><b>test_eleven</b><br>Test class: com.google.test.google_dialogeApp_verificationTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.google_dialogeApp_verificationTEST@2c039ac6</td></tr>
+<tr>
+<td title='com.google.test.google_dialogeApp_verificationTEST.test_five()'><b>test_five</b><br>Test class: com.google.test.google_dialogeApp_verificationTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.google_dialogeApp_verificationTEST@2c039ac6</td></tr>
+<tr>
+<td title='com.google.test.google_dialogeApp_verificationTEST.test_four()'><b>test_four</b><br>Test class: com.google.test.google_dialogeApp_verificationTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.google_dialogeApp_verificationTEST@2c039ac6</td></tr>
+<tr>
+<td title='com.google.test.google_dialogeApp_verificationTEST.test_nine()'><b>test_nine</b><br>Test class: com.google.test.google_dialogeApp_verificationTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.google_dialogeApp_verificationTEST@2c039ac6</td></tr>
+<tr>
+<td title='com.google.test.google_dialogeApp_verificationTEST.test_one()'><b>test_one</b><br>Test class: com.google.test.google_dialogeApp_verificationTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.google_dialogeApp_verificationTEST@2c039ac6</td></tr>
+<tr>
+<td title='com.google.test.google_dialogeApp_verificationTEST.test_seven()'><b>test_seven</b><br>Test class: com.google.test.google_dialogeApp_verificationTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.google_dialogeApp_verificationTEST@2c039ac6</td></tr>
+<tr>
+<td title='com.google.test.google_dialogeApp_verificationTEST.test_six()'><b>test_six</b><br>Test class: com.google.test.google_dialogeApp_verificationTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.google_dialogeApp_verificationTEST@2c039ac6</td></tr>
+<tr>
+<td title='com.google.test.google_dialogeApp_verificationTEST.test_ten()'><b>test_ten</b><br>Test class: com.google.test.google_dialogeApp_verificationTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.google_dialogeApp_verificationTEST@2c039ac6</td></tr>
+<tr>
+<td title='com.google.test.google_dialogeApp_verificationTEST.test_three()'><b>test_three</b><br>Test class: com.google.test.google_dialogeApp_verificationTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.google_dialogeApp_verificationTEST@2c039ac6</td></tr>
+<tr>
+<td title='com.google.test.google_dialogeApp_verificationTEST.test_twele()'><b>test_twele</b><br>Test class: com.google.test.google_dialogeApp_verificationTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.google_dialogeApp_verificationTEST@2c039ac6</td></tr>
+<tr>
+<td title='com.google.test.google_dialogeApp_verificationTEST.test_two()'><b>test_two</b><br>Test class: com.google.test.google_dialogeApp_verificationTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.google_dialogeApp_verificationTEST@2c039ac6</td></tr>
+<tr>
+<td title='com.google.test.googleProduct_verificationTEST.thired_product()'><b>thired_product</b><br>Test class: com.google.test.googleProduct_verificationTEST</td>
+<td></td>
+<td>0</td>
+<td>com.google.test.googleProduct_verificationTEST@631330c</td></tr>
+<tr>
+<td title='com.google.test.google_pageTitle_verificationTEST.titleVerificationTEST_eight()'><b>titleVerificationTEST_eight</b><br>Test class: com.google.test.google_pageTitle_verificationTEST</td>
+<td></td>
+<td>4</td>
+<td>com.google.test.google_pageTitle_verificationTEST@fad74ee</td></tr>
+<tr>
+<td title='com.google.test.google_pageTitle_verificationTEST.titleVerificationTEST_five()'><b>titleVerificationTEST_five</b><br>Test class: com.google.test.google_pageTitle_verificationTEST</td>
+<td></td>
+<td>4</td>
+<td>com.google.test.google_pageTitle_verificationTEST@fad74ee</td></tr>
+<tr>
+<td title='com.google.test.google_pageTitle_verificationTEST.titleVerificationTEST_four()'><b>titleVerificationTEST_four</b><br>Test class: com.google.test.google_pageTitle_verificationTEST</td>
+<td></td>
+<td>8</td>
+<td>com.google.test.google_pageTitle_verificationTEST@fad74ee</td></tr>
+<tr>
+<td title='com.google.test.google_pageTitle_verificationTEST.titleVerificationTEST_nine()'><b>titleVerificationTEST_nine</b><br>Test class: com.google.test.google_pageTitle_verificationTEST</td>
+<td></td>
+<td>4</td>
+<td>com.google.test.google_pageTitle_verificationTEST@fad74ee</td></tr>
+<tr>
+<td title='com.google.test.google_pageTitle_verificationTEST.titleVerificationTEST_one()'><b>titleVerificationTEST_one</b><br>Test class: com.google.test.google_pageTitle_verificationTEST</td>
+<td></td>
+<td>4</td>
+<td>com.google.test.google_pageTitle_verificationTEST@fad74ee</td></tr>
+<tr>
+<td title='com.google.test.google_pageTitle_verificationTEST.titleVerificationTEST_seven()'><b>titleVerificationTEST_seven</b><br>Test class: com.google.test.google_pageTitle_verificationTEST</td>
+<td></td>
+<td>3</td>
+<td>com.google.test.google_pageTitle_verificationTEST@fad74ee</td></tr>
+<tr>
+<td title='com.google.test.google_pageTitle_verificationTEST.titleVerificationTEST_six()'><b>titleVerificationTEST_six</b><br>Test class: com.google.test.google_pageTitle_verificationTEST</td>
+<td></td>
+<td>9</td>
+<td>com.google.test.google_pageTitle_verificationTEST@fad74ee</td></tr>
+<tr>
+<td title='com.google.test.google_pageTitle_verificationTEST.titleVerificationTEST_three()'><b>titleVerificationTEST_three</b><br>Test class: com.google.test.google_pageTitle_verificationTEST</td>
+<td></td>
+<td>3</td>
+<td>com.google.test.google_pageTitle_verificationTEST@fad74ee</td></tr>
+<tr>
+<td title='com.google.test.google_pageTitle_verificationTEST.titleVerificationTEST_two()'><b>titleVerificationTEST_two</b><br>Test class: com.google.test.google_pageTitle_verificationTEST</td>
+<td></td>
+<td>1</td>
+<td>com.google.test.google_pageTitle_verificationTEST@fad74ee</td></tr>
+</table><p>
+</body>
+</html>

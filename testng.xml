@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.google.util.ExtentReporterNG" />
+	</listeners>
+  <test name="Test">
+    <classes>
+     <class name="com.google.test.testcase_one"/>
+      <class name="com.google.test.google_gmailVerificationTEST"/>
+      <class name="com.google.test.googleProduct_verificationTEST"/>
+      <class name="com.google.test.googlegmail_SetingVerificationTEST"/>
+      <class name="com.google.test.google_mailcomposeVerificationTEST"/>
+      <class name="com.google.test.GoogleLaungage_appearTEST"/>
+      <class name="com.google.test.Google_SentCheckMailTEST"/>
+      <class name="com.google.test.Google_MailAttachmentCheckTEST"/>
+      <class name="com.google.test.google_pageTitle_verificationTEST"/>
+      <class name="com.google.test.Google_CountUnreadMailTEST"/>
+      <class name="com.google.test.google_pageSiginOperationsTEST"/>
+      <class name="com.google.test.google_newLabelCreateVerifyTEST"/>
+      <class name="com.google.test.Google_SendMailTEST"/>
+      <class name="com.google.test.Google_totalNoMailsTEST"/>
+      <class name="com.google.test.Google_MailSendingToLabelTEST"/>
+
+	<class name="com.google.test.Google_StaredMailCountTEST" />
+	<class name="com.google.test.google_outputVerificationTEST" />
+	<class name="com.google.test.google_dialogeApp_verificationTEST" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
